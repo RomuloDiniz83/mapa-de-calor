@@ -6,36 +6,36 @@ Este é um aplicativo web desenvolvido com Streamlit que gera mapas de calor int
 
 ## Funcionalidades
 
-Upload de arquivo Excel contendo os dados.
+- Upload de arquivo Excel contendo os dados.
 
-Seleção de diferentes decks para visualização.
+- Seleção de diferentes decks para visualização.
 
-Escolha da paleta de cores para o mapa de calor.
+- Escolha da paleta de cores para o mapa de calor.
 
-Geração automática do mapa de calor com sobreposição de valores.
+- Geração automática do mapa de calor com sobreposição de valores.
 
 ## Como Executar Localmente
 
 ### 1. Clone o Repositório
 
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+```git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio```
 
 ### 2. Crie e Ative um Ambiente Virtual
 
-python -m venv venv
+```python -m venv venv
 # No Windows
 venv\Scripts\activate
 # No Linux/Mac
-source venv/bin/activate
+source venv/bin/activate```
 
 ### 3. Instale as Dependências
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 ### 4. Execute a Aplicação
 
-streamlit run app.py
+```streamlit run app.py```
 
 ## Como Usar
 
@@ -51,12 +51,12 @@ O mapa de calor será gerado automaticamente com os valores sobrepostos.
 
 ## Estrutura do Projeto
 
-/mapa-de-calor
+```/mapa-de-calor
 │── app.py
 │── requirements.txt
 │── README.md
 │── /data (se necessário para arquivos de exemplo)
-└── /images (se necessário para mapas de fundo)
+└── /images (se necessário para mapas de fundo)```
 
 ## Deploy na Web
 
@@ -66,23 +66,23 @@ Publique o repositório no GitHub.
 
 Acesse o Streamlit Community Cloud e conecte o repositório.
 
-Configure o arquivo app.py como entrada.
+Configure o arquivo ```app.py``` como entrada.
 
 Realize o deploy e compartilhe o link gerado.
 
 ## Tecnologias Utilizadas
 
-Python
+- Python
 
-Streamlit
+- Streamlit
 
-Pandas
+- Pandas
 
-Matplotlib
+- Matplotlib
 
-NumPy
+- NumPy
 
-Pillow
+- Pillow
 
 ## Contribuição
 
